@@ -1,0 +1,86 @@
+(kicad_sch (version 20211123) (generator eeschema)
+
+  (uuid 5301e9f0-f489-437e-ae91-df4bcc4749a5)
+
+  (paper "A5" portrait)
+
+  (title_block
+    (title "FM Receiver")
+    (date "2024-09-30")
+    (rev "v0.1")
+    (company "UFSC")
+    (comment 1 "Author: ")
+    (comment 2 "Subject: Electronic Instrumentation")
+  )
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 64.77 82.55) (size 20.32 11.43) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid ad3e7af0-94b1-430d-b0d3-e02ccfb7445a)
+    (property "Sheet name" "Filter" (id 0) (at 64.77 81.8384 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "Filter.kicad_sch" (id 1) (at 64.77 94.5646 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet (at 29.21 33.02) (size 31.75 26.67) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid c8a59609-637e-4fb3-bc97-b42affe1fc4d)
+    (property "Sheet name" "Receiver" (id 0) (at 29.21 32.3084 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "receiver.kicad_sch" (id 1) (at 29.21 60.2746 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet (at 93.98 34.29) (size 29.21 24.13) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid ca45c327-deaf-4224-a1bd-1143a27f47d8)
+    (property "Sheet name" "Audio" (id 0) (at 93.98 33.5784 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "audio.kicad_sch" (id 1) (at 93.98 59.0046 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+    (path "/c8a59609-637e-4fb3-bc97-b42affe1fc4d" (page "2"))
+    (path "/ca45c327-deaf-4224-a1bd-1143a27f47d8" (page "3"))
+    (path "/ad3e7af0-94b1-430d-b0d3-e02ccfb7445a" (page "4"))
+  )
+
+  (symbol_instances
+    (path "/c8a59609-637e-4fb3-bc97-b42affe1fc4d/024eb2d0-3afe-4186-b362-25ada7d59ff0"
+      (reference "C?") (unit 1) (value "C_Polarized") (footprint "")
+    )
+    (path "/c8a59609-637e-4fb3-bc97-b42affe1fc4d/3d8a1e6b-f666-4779-a4b3-e0a7ac709966"
+      (reference "C?") (unit 1) (value "C") (footprint "")
+    )
+    (path "/c8a59609-637e-4fb3-bc97-b42affe1fc4d/6428ea52-47fc-4c8b-b7d8-2a13c10d1df8"
+      (reference "C?") (unit 1) (value "C_Polarized") (footprint "")
+    )
+    (path "/c8a59609-637e-4fb3-bc97-b42affe1fc4d/8a2f0ea8-28c1-47a0-80d5-8f2342f79fa6"
+      (reference "C?") (unit 1) (value "C_Polarized") (footprint "")
+    )
+    (path "/c8a59609-637e-4fb3-bc97-b42affe1fc4d/aa55fbaa-e982-4a32-98d4-c704010a50b0"
+      (reference "C?") (unit 1) (value "C_Polarized") (footprint "")
+    )
+    (path "/c8a59609-637e-4fb3-bc97-b42affe1fc4d/e691189e-372b-4f74-81f1-0c5f8721c887"
+      (reference "C?") (unit 1) (value "C") (footprint "")
+    )
+    (path "/c8a59609-637e-4fb3-bc97-b42affe1fc4d/1721b90f-c899-4f9f-ad4a-45cc9255a42c"
+      (reference "U?") (unit 1) (value "BF494") (footprint "TO-92_ONS")
+    )
+  )
+)
