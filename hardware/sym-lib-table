@@ -1,3 +1,4 @@
 (sym_lib_table
-  (lib (name "bf494")(type "KiCad")(uri "${KIPRJMOD}/lib/ul_BF494/bf494.kicad_sym")(options "")(descr ""))
+  (lib (name "bf495")(type "KiCad")(uri "${KIPRJMOD}/lib/bf495.kicad_sym")(options "")(descr ""))
+  (lib (name "bf494")(type "KiCad")(uri "${KIPRJMOD}/lib/bf494.kicad_sym")(options "")(descr ""))
 )
