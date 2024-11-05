@@ -2591,7 +2591,7 @@
       (reference "#PWR0110") (unit 1) (value "GND") (footprint "")
     )
     (path "/ca45c327-deaf-4224-a1bd-1143a27f47d8/2020f054-c7ef-40b3-b8ee-266de2860f70"
-      (reference "BATT1") (unit 1) (value "Conn_01x02_Female") (footprint "Capacitor_THT:CP_Radial_Tantal_D5.0mm_P5.00mm")
+      (reference "BATT1") (unit 1) (value "Conn_01x02_Female") (footprint "lib:bf495")
     )
     (path "/c8a59609-637e-4fb3-bc97-b42affe1fc4d/e691189e-372b-4f74-81f1-0c5f8721c887"
       (reference "C1") (unit 1) (value "220 nF") (footprint "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm")
@@ -2624,7 +2624,7 @@
       (reference "C10") (unit 1) (value "100 uF 25V") (footprint "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm")
     )
     (path "/c8a59609-637e-4fb3-bc97-b42affe1fc4d/43a6bf0c-4ff4-47b4-a5c0-aba1d733eaee"
-      (reference "J1") (unit 1) (value "AERIAL") (footprint "MountingHole:MountingHole_2.2mm_M2_DIN965")
+      (reference "J1") (unit 1) (value "AERIAL") (footprint "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad")
     )
     (path "/ca45c327-deaf-4224-a1bd-1143a27f47d8/05775a8c-0a5a-455f-9ee1-c066a3e9ed17"
       (reference "JST1") (unit 1) (value "Conn_01x02_Female") (footprint "Inductor_THT:L_Axial_L7.0mm_D3.3mm_P12.70mm_Horizontal_Fastron_MICC")
@@ -2645,13 +2645,13 @@
       (reference "R4") (unit 1) (value "10R") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
     )
     (path "/ca45c327-deaf-4224-a1bd-1143a27f47d8/a30d7937-59ed-43d3-b874-d13689cc1208"
-      (reference "SW1") (unit 1) (value "ON/OFF SWITCH") (footprint "Inductor_THT:L_Axial_L12.0mm_D5.0mm_P15.24mm_Horizontal_Fastron_MISC")
+      (reference "SW1") (unit 1) (value "ON/OFF SWITCH") (footprint "Inductor_THT:L_Axial_L7.0mm_D3.3mm_P10.16mm_Horizontal_Fastron_MICC")
     )
     (path "/c8a59609-637e-4fb3-bc97-b42affe1fc4d/ef38e26e-5f9a-4ed7-9fc2-4d04f835a100"
       (reference "T1") (unit 1) (value "BF494") (footprint "Package_TO_SOT_THT:TO-39-3")
     )
     (path "/c8a59609-637e-4fb3-bc97-b42affe1fc4d/8c1f90c8-043c-4616-a96e-70d5099e6a81"
-      (reference "T2") (unit 1) (value "BF495") (footprint "TO3_BF495_NXP")
+      (reference "T2") (unit 1) (value "BF495") (footprint "lib:bf495")
     )
     (path "/ca45c327-deaf-4224-a1bd-1143a27f47d8/c0e015a5-e6a7-4696-8998-00d99233c4b4"
       (reference "U1") (unit 1) (value "LM386") (footprint "lib:lm386")
